@@ -108,6 +108,11 @@ npx playwright test APITests.spec.js
 
 # How to run tests through package.json file
 
+Make sure the scripts are added to package.json file shown as below
+
+![image](https://github.com/LaunchCG/TestAccelerator-playwright/assets/159937908/ff2c2826-9096-4a93-9c51-52f1c8b80b02)
+
+
 npm run APITests 
 
 npm run UITests
