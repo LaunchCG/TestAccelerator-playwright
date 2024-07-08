@@ -17,8 +17,8 @@ const config = ({
         screenshot:'on',
         headless:false,
         video:'off',
-        ...devices['iPhone 14 Pro Max'],
-        viewport:{width:1920,height:1080}
+        // ...devices['iPhone 14 Pro Max'],
+        // viewport:{width:1920,height:1080}
       },
     },
 
