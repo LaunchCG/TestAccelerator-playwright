@@ -1,0 +1,1 @@
+[{"uid":"70c20cea938997b8","name":"@Web TC001_EcommApp_PlaceOrder","time":{"start":1720612384806,"stop":1720612389100,"duration":4294},"status":"passed","severity":"normal"},{"uid":"598e8d8b3c7b8a44","name":"@Web TC002_Locked_Out_User Login","time":{"start":1720612389978,"stop":1720612390934,"duration":956},"status":"passed","severity":"normal"}]

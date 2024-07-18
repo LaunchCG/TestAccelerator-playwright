@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jul 10 17:23:04 IST 2024","Wed Jul 10 17:23:09 IST 2024","4294","Chrome","E2EPlaceOrder.spec.js","","","","@Web TC001_EcommApp_PlaceOrder",""
+"passed","Wed Jul 10 17:23:09 IST 2024","Wed Jul 10 17:23:10 IST 2024","956","Chrome","E2EPlaceOrder.spec.js","","","","@Web TC002_Locked_Out_User Login",""
