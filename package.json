@@ -8,14 +8,14 @@
     "UITestsSafari": "npx playwright test --grep Web --project=Safari",
     "UITestsChrome": "npx playwright test --grep Web --project=Chrome",
     "UITestsAllure": "npx playwright test --grep Web --project=Chrome --reporter=line,allure-playwright",
-    "CucumberSmoke":"npx cucumber-js features\\EComm.feature --parallel 2 --retry 1 --exit --format html:cucumber-report.html"
+    "CucumberSmoke": "npx cucumber-js features\\EComm.feature --parallel 2 --retry 1 --exit --format html:cucumber-report.html"
   },
   "keywords": [],
   "author": "Siva Anbalagan",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.45.1",
+    "@playwright/test": "^1.45.3",
     "@types/node": "^20.14.9",
     "allure-playwright": "^3.0.0-beta.5"
   },

@@ -45,3 +45,16 @@ test('@API Standalone API test GET Single User',async()=>{
     console.log(jsonObj.data[0].email);
     console.log(jsonObj.data[1].email);
 });
+
+test('@API API Test POST Method direct values',async()=>{
+    const apiContext = await request.newContext();
+    const resp = await apiContext.post("https://reqres.in/api/users",{data:{"name":"morpheus","job":"leader"}})
+    const respCode = await resp.status();
+    console.log(respCode);
+    const respBody = JSON.parse(await resp.body());
+    expect(resp.ok()).toBeTruthy();
+    console.log(respBody);
+    // const jsonObjects = await resp.json();
+    // console.log(jsonObjects.id);
+    // console.log(jsonObjects.createdAt);
+});
