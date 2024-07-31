@@ -3,9 +3,9 @@ const { devices } = require('@playwright/test');
 const config = ({
   testDir: './tests',
   retries:1,        //Retries any failed TC one time
-  timeout:30*1000,
+  timeout:30*1000,  //timeout for tests
   expect:{
-    timeout:5*1000
+    timeout:5*1000  //Assertion timeout
   },
   reporter: 'html',
   projects: [
@@ -17,8 +17,8 @@ const config = ({
         screenshot:'on',
         headless:false,
         video:'off',
-        // ...devices['iPhone 14 Pro Max'],
-        // viewport:{width:1920,height:1080}
+        ...devices['iPhone 14 Pro Max'], //--> emulating different devices
+        viewport:{width:1920,height:1080} //--> run in desired resolution
       },
     },
 
