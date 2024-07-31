@@ -29,7 +29,7 @@ test('@Web TC001_EcommApp_PlaceOrder', async({page})=>{
     await logoutPage.Logout();
 });
 
-test('@Web TC002_Locked_Out_User Login', async({page})=>{
+test('@Regression @Web TC002_Locked_Out_User Login', async({page})=>{
     const loginPage = new LoginPage(page);
     await loginPage.Navigate(loginData.url);
     await loginPage.InvalidLogin(loginData.unlock,loginData.pwdlock);
