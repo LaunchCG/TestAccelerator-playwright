@@ -128,3 +128,16 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Ignore HTML, ZIP, and PNG files
+*.html
+*.zip
+*.png
+*.css
+*.ttf
+*.svg
+
+# Ignore test report folders
+allure-report/
+allure-results/
+playwright-report/
